@@ -146,7 +146,7 @@ const updateQuantity = async (itemID, size, quantity) => {
         }
     }
     const value = {
-        token, setToken,setCartItems, backendUrl, navigate, search, updateQuantity, getCartAmount, products, currency, delivery_fee, search, setsearch, showsearch, setshowsearch, cartItems, getCartCount, addToCart
+        token, setToken,setCartItems, backendUrl, navigate, search, updateQuantity, getCartAmount, products, currency, delivery_fee,  setsearch, showsearch, setshowsearch, cartItems, getCartCount, addToCart
     }
     return (
         <ShopContext.Provider value={value}>
